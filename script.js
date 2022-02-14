@@ -49,7 +49,7 @@ btnRoll.addEventListener('click', function () {
 
     // display dice
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${dice}.png`;
+    diceEl.src = `assets/dice-${dice}.png`;
 
     // check
     if (dice !== 1) {
